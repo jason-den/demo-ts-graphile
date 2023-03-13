@@ -1,0 +1,29 @@
+{
+	"jsc": {
+			"parser": {
+					"syntax": "typescript"
+			},
+			"target": "es2022",
+			"baseUrl": "./src",
+			"paths": {
+					"^lib/*": [
+							"./lib/*"
+					],
+					"^db/*": [
+							"./db/*"
+					],
+					"^config/*": [
+							"./config/*"
+					],
+					"config": [
+							"./config"
+					],
+					"express-error-handler": [
+							"./express-error-handler"
+					]
+			}
+	},
+	"module": {
+			"type": "commonjs"
+	}
+}
